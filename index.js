@@ -8,7 +8,7 @@ function whisper(string){
 function logShout(string){
   console.log( string.toUpperCase())
 }
-function logShout(string){
+function logWhisper(string){
   console.log( string.toLowerCase())
 }
 function sayHiToGrandma(string){
@@ -22,7 +22,3 @@ function sayHiToGrandma(string){
     return "YES INDEED!"
   }
 }
-
-shout(hello)
-whisper(HELLO)
-logShout(hello)
